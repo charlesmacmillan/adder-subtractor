@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin: 25% auto;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 75px;
+}
+
+input {
+  text-align: center;
+  font-size: 40px;
+  width: 100px;
+  height: 50px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+
+button {
+  font-size: 40px;
+  width: 40px;
+  height: 55px;
+  border: 1px solid grey;
+  background-color: grey;
+  border-radius: 10px;
+  color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: grey;
+}
